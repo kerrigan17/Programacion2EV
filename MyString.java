@@ -72,7 +72,6 @@ public class MyString {
               frecuenciaVocales[index]++;
           }
       }
-
       for (int i = 0; i < vocales.length(); i++) {
           System.out.println(vocales.charAt(i) + " " + frecuenciaVocales[i] + " " + "*".repeat(frecuenciaVocales[i]));
       }
